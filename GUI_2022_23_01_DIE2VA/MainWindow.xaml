@@ -12,12 +12,12 @@
             <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
-            <ImageBrush ImageSource="https://cdn.discordapp.com/attachments/559850456084381721/1042474071826374777/Hotpot.png"/>
+            <ImageBrush ImageSource="https://upload.wikimedia.org/wikipedia/hu/f/fd/Pikachu_thunderbolt.jpg"/>
         </Grid.Background>
         <StackPanel VerticalAlignment="Center">
             <Button Click="NewGameClick"  Content="Play!"  Margin="10" Grid.Column="0" Height="50" Width="207"/>
             <Button Click="ExitClick"  Content="Exit"   Grid.Column="0" Height="50" Width="207"/>
         </StackPanel>
-        <Label Content="Pikamaze" Foreground="Yellow" Grid.Column="1" FontSize="70"/>
+       <Label Content="Pikamaze" VerticalAlignment="Bottom" Foreground="Yellow" Grid.Column="1" FontSize="70" Margin="5,0,-5,0"/>
     </Grid>
 </Window>
